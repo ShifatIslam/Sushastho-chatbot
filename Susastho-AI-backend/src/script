@@ -1,0 +1,26 @@
+ngrok http --domain=glad-blindly-ocelot.ngrok-free.app 5000
+
+
+
+nohup ./run.sh > foo.log 2> foo.err < /dev/null &
+
+
+
+nohup ngrok http --domain=glad-blindly-ocelot.ngrok-free.app 5000 > foo.log 2> foo.err < /dev/null &
+
+
+git config --global credential.helper store
+
+
+
+
+ngrok http --domain=glad-blindly-ocelot.ngrok-free.app 5000 -log=stdout > /dev/null &
+
+
+~/Susastho-AI-backend/src$ source ./venv_vllm/bin/activate
+
+python -m vllm.entrypoints.openai.api_server --model ./nlp_api/model_llama3/checkpoint-360-marged
+
+
+
+
